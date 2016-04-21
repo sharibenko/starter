@@ -333,13 +333,13 @@ table {
   padding:20px 0;
   }
   .header .title {
-    font-size:15px;
+    font-size:36px;
     line-height:1.67;
     font-weight:bold;
     margin:0;
     }
     .header .title a {
-      color:#516066;
+      color:#00afe9;
       }
 
 .menu {
