@@ -44,7 +44,7 @@ body,
 input,
 textarea {
   color:#516066;
-  font-style:; 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {
