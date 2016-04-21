@@ -64,37 +64,47 @@ h6 {
   }
 
 h1 {
-  font-size:42px;
+  font-size:36px;
   margin-bottom:10px;
   line-height:1em;
+  font-weight: 700;
+  color: #00afe9;
   }
 
 h2 {
-  font-size:28px;
+  font-size:32px;
   margin-bottom:20px;
   line-height:1.25em;
+  font-weight: 700;
+  color:#0e1d2e;
   }
 
 h3 {
-  font-size:20px;
+  font-size:26px;
   margin-bottom:20px;
   line-height:1.5em;
+  font-weight: 500;
+  color: #005875;
   }
 
 h4, h5 {
-  font-size:15px;
+  font-size:21px;
   margin-bottom:0;
   line-height:1.67em;
+  font-weight: 400;
+  color:#f02143;
   }
 
 p {
   margin:0 0 20px;
+  font-size:17px;
+  color: 000000;
   }
   p:last-child { margin-bottom:0;}
 
 /* Links */
 a {
-  color:#2099aa;
+  color:#00afe9;
   text-decoration:none;
   font-weight:bold;
   -webkit-transition:color 100ms;
@@ -103,10 +113,12 @@ a {
           transition:color 100ms;
   }
   a:hover {
-    color:#197987;
+    color:#00afe9;
+    text-decoration: underline;
     }
   a.active {
-    color:#516066;
+    color:#f02143;
+    text-decoration: underline;
     }
   .rss {
     color:#d4d7d9;
