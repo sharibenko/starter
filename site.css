@@ -44,7 +44,7 @@ body,
 input,
 textarea {
   color:#516066;
-  font:15px/1.67 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style:; 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {
@@ -60,7 +60,6 @@ h4,
 h5,
 h6 {
   margin:0;
-  font-weight:normal;
   }
 
 h1 {
@@ -106,7 +105,6 @@ p {
 a {
   color:#00afe9;
   text-decoration:none;
-  font-weight:bold;
   -webkit-transition:color 100ms;
      -moz-transition:color 100ms;
        -o-transition:color 100ms;
@@ -117,7 +115,7 @@ a {
     text-decoration: underline;
     }
   a.active {
-    color:#f02143;
+    color:#f15a29;
     text-decoration: underline;
     }
   .rss {
